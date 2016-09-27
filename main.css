@@ -33,8 +33,50 @@ input#search-box {
   width: 400px;
   height: 25px;
   margin-top: -10px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
 }
 
 .magnifying-glass {
   height: 25px;
+  display: inline-block;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.listings {
+  margin-top: 500px;
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+  display: inline-block;
 }
