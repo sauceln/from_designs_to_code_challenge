@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 nav {
   padding-top: 20px;
   padding-right: 10px;
@@ -7,6 +11,7 @@ nav {
   background-color: #DDDDDD;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  border-radius: 3px;
 }
 
 .logo {
@@ -16,15 +21,17 @@ nav {
 }
 
 .search {
-  border: 1px solid black;
   font-size: 17px;
   padding-left: 60px;
   left: 20px;
   padding: 10px;
+  margin: 16px 0px;
 }
 
 .search p {
   padding: 0px;
+  margin-top: 17px;
+  margin-bottom: 5px;
 }
 
 main {
@@ -37,11 +44,20 @@ input#search-box {
   display: inline-block;
   border-radius: 3px;
   border: 1px solid #DDDDDD;
+  vertical-align: middle;
+}
+
+.search-button {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+  height: 29px;
+  vertical-align: middle;
 }
 
 .magnifying-glass {
-  height: 25px;
   display: inline-block;
+  height: 100%;
 }
 
 .pages-button {
@@ -68,17 +84,33 @@ input#search-box {
 .pages {
   display: block;
   font-size: 0;
-  margin-bottom: 30px;
+  margin: 10px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
-  margin-top: 10px;
-  margin-left: 10px;
   width: 350px;
 }
 
 .listings {
-  height: 100px;
-  width: 500px;
-  border: 1px solid black;
   display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.position-title {
+  color: purple;
+  font-size: 17px;
+}
+
+.date, .location {
+  color: grey;
+  font-size: 16px;
+}
+
+.listings li {
+  margin-bottom: 15px;
+}
+
+.listings a {
+  font-weight: bold;
+  text-decoration: none;
 }
