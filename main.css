@@ -16,24 +16,24 @@ nav {
 }
 
 .search {
-  position: absolute;
-  width: 50%;
-  height: 90px;
   border: 1px solid black;
   font-size: 17px;
   padding-left: 60px;
   left: 20px;
+  padding: 10px;
+}
+
+.search p {
+  padding: 0px;
 }
 
 main {
-  padding-top: 10px;
+  padding: 10px 60px;
 }
 
 input#search-box {
   width: 400px;
   height: 25px;
-  margin-top: -10px;
-  position: absolute;
   display: inline-block;
   border-radius: 3px;
   border: 1px solid #DDDDDD;
@@ -49,6 +49,7 @@ input#search-box {
   display: inline-block;
   padding: 8px 15px;
   border-radius: 3px;
+  width: 15%;
 }
 
 * {
@@ -61,22 +62,23 @@ input#search-box {
   padding: 8px 25px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
+  width: 70%;
 }
 
 .pages {
-  display: inline-block;
+  display: block;
   font-size: 0;
   margin-bottom: 30px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
-  margin-top: 100px;
-  margin-left: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 350px;
 }
 
 .listings {
-  margin-top: 500px;
-  height: 200px;
-  width: 50%;
+  height: 100px;
+  width: 500px;
   border: 1px solid black;
   display: inline-block;
 }
